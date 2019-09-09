@@ -18,7 +18,7 @@ echo ""
 
 if [ $REPLY == "y" ];then
   for i in $(seq $low $high);do
-    sleep 1
+    sleep .2
     echo "  Grid Node $i offline..."
   done;
 fi
